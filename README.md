@@ -302,7 +302,7 @@ elif [ $DB_ROLE == 't' ]; then
 fi
 
 # script condition failover from primary to standby
-(echo >/dev/tcp/"$master_ip"/5432) &>/dev/null && echo -e `date +"%F %T"` "PRIMARY is RUNNING no need to failover , ALL IS OKAY " >> $LOGFILE && exit 0 || echo "PROCESSING TO PROMOTED" >> $LOGFILE
+#(echo >/dev/tcp/"$master_ip"/5432) &>/dev/null && echo -e `date +"%F %T"` "PRIMARY is RUNNING no need to failover , ALL IS OKAY " >> $LOGFILE && exit 0 || echo "PROCESSING TO PROMOTED" >> $LOGFILE
 
 # Prerequisites for an PRIMARY and STANDBY switching:
 #   1 Current node must be in STANDBY mode.
