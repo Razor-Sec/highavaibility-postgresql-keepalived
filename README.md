@@ -1,14 +1,14 @@
 
 # list ip
 
-IP VM psql client : 10.8.60.205
-IP VM SQ1 : 10.8.60.207 (DB Master)
-IP VM SQ2 : 10.8.60.209 (DB Standby)
-IP VM ES : 10.8.60.205
-IP Virtual keepalive : 10.8.60.218
+|IP VM psql client | 10.8.60.205|
+|IP VM SQ1 | 10.8.60.207 (DB Master)|
+|IP VM SQ2 | 10.8.60.209 (DB Standby)|
+|IP VM ES | 10.8.60.205|
+|IP Virtual keepalive | 10.8.60.218|
 
 
-# on node all node
+# Execute in postgre1 & postgre2
 
 ### setup and install postgre
 
